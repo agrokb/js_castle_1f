@@ -1,0 +1,26 @@
+.container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: brown;
+}
+.item{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    margin:15px;
+}
+
+.title{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+
+}
