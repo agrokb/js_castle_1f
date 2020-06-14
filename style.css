@@ -2,13 +2,12 @@
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: brown;
+    background-color: #f0f0f0;
 }
 .item{
     height: 300px;
     width: 300px;
-    background-color: aquamarine;
-    margin:15px;
+    background-color: #ffffff;
 }
 
 .title{
@@ -17,10 +16,38 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    background-color: #f0f0f0;
+}
+
+.numbers{
+    border-radius: 150px 0px 30px 0px;  
+    margin:15px;
+    box-shadow: 0px 3px 10px #D8D8D8;
+    opacity: 1;
+}
+.inner-box{
+   margin-top:30px;
+   display: flex;  
+   flex-wrap: wrap;  
+   flex-direction: column;
+   height: 270px;
+   margin-bottom: 40px;
+}
+.subtitle{
+    font-size: 70px;
+    color: aliceblue;
+    margin-left: 60px;
+    margin-bottom: 28px;
+    transform: scale(1.2,1.4);
+    color:#2EB738
 }
 
 .number{
-    display: flex;
-    flex-direction: column;
-
+    margin-top: 15px;
+    margin-left:30px;
+    height: 27px;
+    font-size: 20px;
+    width: 110px;
+    color:#2EB738
 }
+

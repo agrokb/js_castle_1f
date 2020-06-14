@@ -10,8 +10,11 @@
 <body>
     <div class="container" id="app" >
         <div class="item title" >{{ title }}</div>
-        <div class="item" v-for="item in 8">
-                <div class="number" v-for="number in 9">{{item+1}}x{{number}}={{ (item+1)*number }}</div>
+        <div class="item numbers" v-for="item in 8">
+            <div class="inner-box">
+                <div class="subtitle">{{ item + 1 }}</div>
+                <div class="number" v-for="number in 9">{{ item+1 }} x {{ number }} = {{ (item+1)*number }}</div>
+            </div>
         </div>
     </div>
     <script src="index.js"></script>
